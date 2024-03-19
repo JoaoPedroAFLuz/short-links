@@ -1,0 +1,23 @@
+GET http://localhost:3000/LinkedIn
+
+### 
+
+GET http://localhost:3000/api/metrics
+
+### 
+
+GET http://localhost:3000/api/metrics/GitHub
+
+### 
+
+GET http://localhost:3000/api/links
+
+### 
+
+POST http://localhost:3000/api/links
+Content-Type: application/json
+
+{
+  "code": "LinkedIn",
+  "url": "https://www.linkedin.com/in/JoaoPedroAFLuz/"
+}
